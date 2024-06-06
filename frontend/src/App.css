@@ -1,0 +1,305 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+img {
+  max-width: 50px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  margin-left: 5rem;
+  margin-bottom: -64px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: right;
+  margin-right: 5rem;
+}
+
+.months {
+  min-width: 130px;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 20px;
+  margin-left: 1%;
+}
+
+/* .pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination>span:first-child {
+  margin-right: auto;
+  margin-left: 10%;
+}
+
+.pagination .button-container {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+}
+
+.pagination .button-container>button {
+  margin: 0 5px;
+}
+
+.pagination>span:last-child,
+.pagination>select {
+  margin-left: 10px;
+  margin-right: 10%;
+} */
+
+/* .pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page-info {
+  font-weight: bold;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.prev-btn,
+.next-btn {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.prev-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.next-btn:hover {
+  background-color: #45a049;
+}
+
+.per-page {
+  display: flex;
+  align-items: center;
+}
+
+.per-page span {
+  margin-right: 5px;
+  color: #666;
+}
+
+.per-page select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+} */
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page-info {
+  font-weight: bold;
+  color: #333;
+  margin-left: 10%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.prev-btn,
+.next-btn {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 10px;
+  /* Add spacing between buttons */
+}
+
+.pagination-button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.prev-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.next-btn:hover {
+  background-color: #45a049;
+}
+
+.per-page {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.per-page span {
+  margin-right: 5px;
+  color: #666;
+}
+
+.per-page select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+input[type="text" i] {
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 20px;
+  margin-left: 1%;
+}
+
+.bar {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ef0707;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.transactions-statistics {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.transactions-statistics h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.transactions-statistics p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.statistics-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.statistic-item {
+  width: calc(33% - 1rem);
+  /* Adjust width as needed */
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.statistic-item p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.pie {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin-left: 25%;
+  /* margin-top: 2rem; */
+  width: 50%;
+  height: 50%;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
