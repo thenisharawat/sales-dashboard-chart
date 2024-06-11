@@ -1,26 +1,3 @@
-// // App.js
-// // App.js
-// import React, { useState, useEffect } from 'react';
-// // import TransactionTable from './transactionTable';
-// import MonthDropdown from './monthDropdown';
-// import SearchBox from './searchBox';
-// import PaginationButtons from './paginationButtons';
-// import { fetchTransactions } from './components/transactionData';
-// import TransactionTable from './components/TransactionsTable';
-// import "./App.css";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <h1>Transaction Dashboard</h1>
-//       <TransactionTable />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
 // App.js
 import React, { useState, useEffect } from 'react';
 import TransactionTable from './components/TransactionsTable';
