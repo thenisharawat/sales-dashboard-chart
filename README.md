@@ -5,6 +5,9 @@ Developed a MERN stack sales dashboard with APIs for data initialization, transa
 
 Before running any of the scripts, make sure you have [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com/try/download/community) installed on your machine.
 
+### Intialize Database For The First Time When The Backend Server Is Up.
+[Intialize Database](http://127.0.0.1:8000)
+
 ## Available Scripts
 
 In the project root directory of frontend and backend, you can run:
